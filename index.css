@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Sans serif';
+    background-color: #d4efed;
+}
+
+@font-face{
+    font-family: pia;
+    src:url(Chewy-Regular.ttf);
+}
+
+  
+   a{
+       text-decoration: none;
+   }
+  
+   /* Fondo del nav, menu */
+   .fondo {
+    background: linear-gradient(to right, #005C98, #505BDA); /* Degradado hacia abajo */
+   }
+  
+   /* Configuracion del img y mensaje bienvenida*/
+   .superior {
+       display: flex;
+       width: 100%;
+   }
+  
+   .superior img{
+       position: relative;
+       margin-top: 10px;
+       width: 150px;
+       border-radius: 60%;
+   }
+  
+   .superior .mssbienvenida {
+        color: white;
+        margin-top: 35px;
+        margin-left: 20px;
+   }
+  
+   /* Configuracion del menu */
+  #menu{
+    text-align: center;
+    align-items: center;
+  }
+  
+   .menu {
+       margin-top: -50px;
+       display: block;
+       padding: 10px 5px;
+   }
+  
+   .menu a{
+       text-decoration: none;
+       color: white;
+       padding: 0px 10px;
+       font-size: 20px;
+   }
+  
+   .menu a:hover{
+       background-color: white;
+       color: black;
+   }
+    
+.menu button {
+    margin-left: auto; /* Mover el botón de registro a la derecha */
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    max-width: 60%; /* Reducido el ancho del carrusel */
+    margin: auto;
+    z-index: 1; /* Asegura que el carrusel esté por encima del fondo */
+    top: 20px;
+}
+
+.contenido-container {
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+  
